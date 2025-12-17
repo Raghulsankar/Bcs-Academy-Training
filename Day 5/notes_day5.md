@@ -69,3 +69,33 @@
 - git config --global user.email "user email"
 
 the above 2 lines push code in git with your name and email shown.
+
+# Objects
+
+> No duplicate keys allowed.
+
+> in object are same unique key
+
+> last key is overwrite their last value.
+
+>
+
+# DESTRUCTURING
+
+- Two types
+
+> Array destructuring
+> object destruturing
+
+> Default value is taken undefined value
+> , skip the value
+
+## Rest ... Operator
+
+- it is collecting the rest of the values.
+
+# spread ... Operator
+
+- it is merge the values
+
+> left(Rest) operator = right(spread) operator

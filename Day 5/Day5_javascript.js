@@ -149,3 +149,37 @@ const book1 = {
 // const fullDetails1 = Object.assign({}, book1, details1);
 const fullDetails1 = { ...book1, ...details1 };
 console.log(fullDetails1);
+
+// task
+// Default Values using spread operator
+
+const defaultDetails = {
+  name: "N/A",
+  author: "N/A",
+  authourAge: null,
+};
+const book2 = {
+  name: "Harry Potter II: Chamber of Secrets",
+  author: "J.K Rowling",
+  authorAge: 45,
+};
+
+const completeDetails = { ...defaultDetails, ...book2 };
+console.log(completeDetails);
+
+// Array Destructuring
+
+const [, , third, , fifth] = [10, 20, 30, 40, 50];
+console.log(third); // 30
+console.log(fifth); // 50
+
+const [firstName, , , lastName] = ["John", "M.", "K.", "Doe"];
+console.log(firstName); // "John"
+console.log(lastName); // "Doe"
+
+// Rest Operator ... operator = collect rest of the values
+const fruits = ["Apple", "Banana", "Mango", "Orange", "Pineapple"];
+const [firstFruit, secondFruit, ...otherFruits] = fruits;
+console.log(firstFruit); // "Apple"
+console.log(secondFruit); // "Banana"
+console.log(otherFruits); // ["Mango", "Orange", "Pineapple"]
