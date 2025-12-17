@@ -67,3 +67,5 @@
 
 - git config --global user.name "username"
 - git config --global user.email "user email"
+
+the above 2 lines push code in git with your name and email shown.
