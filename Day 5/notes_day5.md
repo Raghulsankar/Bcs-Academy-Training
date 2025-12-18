@@ -85,9 +85,11 @@ the above 2 lines push code in git with your name and email shown.
 - Two types
 
 > Array destructuring
+
 > object destruturing
 
 > Default value is taken undefined value
+
 > , skip the value
 
 ## Rest ... Operator
