@@ -33,12 +33,13 @@ google slides
 ## NaN
 
 - NaN -> not a number
-- whenever convert to number is failed is called 'NaN'.
+- whenever convert datatype to number is failed is called 'NaN'.
 - NaN type is 'NUMBER'.
-- jvascript file convert any data type to did not convert number that call NaN.
+- javascript file convert any data type to did not convert number that call NaN.
 - NaN \* NaN => NaN
 - Nan + NaN => NaN
 - Nan / NaN => NaN
+  > = only value in javascript not equal itself it is 'NaN'
 
 ## Null
 
@@ -47,4 +48,4 @@ google slides
 # Destruturing with Objects
 
 - object destructuring based on keys.
--
+- Array destruturing index to unpack the values.

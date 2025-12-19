@@ -44,13 +44,23 @@ const student = {
 // console.log(football);
 
 //method 1
-const { name, address, hobbies } = student;
-const { city } = address;
-const [, h2] = hobbies;
+// const { name, address, hobbies } = student;
+// const { city } = address;
+// const [, h2] = hobbies;
 
-console.log(name);
-console.log(address);
-console.log(city);
-console.log(h2);
+// console.log(name);
+// console.log(address);
+// console.log(city);
+// console.log(h2);
 
 //method 2
+
+const {
+  name,
+  address: { city },
+  hobbies: [, h2], //, skip the value of cricket
+} = student;
+// console.log(name);
+// console.log(city);
+console.log(h2);
+console.log(student);
