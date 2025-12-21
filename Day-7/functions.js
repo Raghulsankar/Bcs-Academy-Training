@@ -117,3 +117,95 @@ console.log(checkAgeCategory(65));
 // console.log(introduceWizard(wizard));
 
 //method 2
+//Task 03
+
+//🪄 Archmage Merlin wields a wand with Phoenix Feather core.
+
+// function introduceWizard(wizardobj){
+//     const{title,name,wand:{core}}=wizard;
+//     return`🪄  ${title}${name} wields a wand with ${core} core`;
+
+// }
+//  //const{title,name,wand:{core}}=wizard;
+
+// const wizard = { name: "Merlin", title: "Archmage", wand: { core: "Phoenix Feather" } };
+// console.log(introduceWizard(wizard));
+
+//Task 04
+
+//["🍎", "🥪", "🍫", "🍇", "🧃"]
+
+// function mergeInventory(existing, incoming)
+// {
+//     const extra=["🧃"]
+// return`${shelf},${delivery},"🧃"`;
+// }
+
+// const shelf = ["🍎", "🥪"];
+// const delivery = ["🍫", "🍇"];
+// console.log(mergeInventory(shelf, delivery));
+
+//  function mergeInventory(existing, incoming)
+//  {
+//      //const extra=["🧃"]
+//  return`${shelf},${delivery},${total}`;
+//  }
+
+//  const shelf = ["🍎", "🥪"];
+//  const delivery = ["🍫", "🍇"];
+//  const total=["🧃"];
+//  console.log(mergeInventory(shelf, delivery));
+
+// function mergeInventory(existing, incoming) {
+//   return ${shelf},${delivery + "," + total};
+// }
+
+// const shelf = ["🍎", "🥪"];
+// const delivery = ["🍫", "🍇"];
+// const total = ["🧃"];
+// console.log(mergeInventory(shelf, delivery));
+
+//Task 05
+
+// 🎒 Natasha's bag contains: 💄, 🔫
+// 🎒 Anon's bag is empty.
+
+// function packBag(owner = "Anon", ...items){
+//     if(items=='')
+//     {
+//         return`🎒${owner}'s bag is empty`
+//     }
+//     else{
+//         return`🎒${owner}'s bag Contains:${items}`
+//     }
+// //return`🎒${owner}'s bag${items}`
+
+// }
+
+// console.log(packBag("Natasha", "💄", "🔫"));
+// console.log(packBag());
+
+//Task 06
+
+//Thor is currently in Asgard, Yggdrasil 🌍
+//Someone is currently in Unknown, Earth 🌍
+
+function whereAreYou(personObj) {
+  const {
+    user,
+    location: { city, planet },
+  } = personObj;
+  if (personObj != {}) {
+    return `Someone is currently in unknown, earth🌍`;
+  } else {
+    return `${user} is currently in ${city},${planet}`;
+  }
+}
+
+console.log(
+  whereAreYou({
+    user: "Thor",
+    location: { city: "Asgard", planet: "Yggdrasil" },
+  })
+);
+console.log(whereAreYou({}));
