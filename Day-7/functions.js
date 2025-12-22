@@ -106,17 +106,18 @@ console.log(checkAgeCategory(65));
 // 🪄 Archmage Merlin wields a wand with Phoenix Feather core.
 
 // method 1
-// function introduceWizard(wizardObj) {
-//   return `🪄  ${wizardObj.title}  ${wizardObj.name} wields a wand with ${wizardObj.wand.core}`;
-// }
-// const wizard = {
-//   name: "Merlin",
-//   title: "Archmage",
-//   wand: { core: "Phoenix Feather" },
-// };
-// console.log(introduceWizard(wizard));
+function introduceWizard(wizardObj) {
+  return `🪄  ${wizardObj.title}  ${wizardObj.name} wields a wand with ${wizardObj.wand.core}`;
+}
+const wizard = {
+  name: "Merlin",
+  title: "Archmage",
+  wand: { core: "Phoenix Feather" },
+};
+console.log(introduceWizard(wizard));
 
 //method 2
+
 //Task 03
 
 //🪄 Archmage Merlin wields a wand with Phoenix Feather core.
@@ -170,20 +171,17 @@ console.log(checkAgeCategory(65));
 // 🎒 Natasha's bag contains: 💄, 🔫
 // 🎒 Anon's bag is empty.
 
-// function packBag(owner = "Anon", ...items){
-//     if(items=='')
-//     {
-//         return`🎒${owner}'s bag is empty`
-//     }
-//     else{
-//         return`🎒${owner}'s bag Contains:${items}`
-//     }
-// //return`🎒${owner}'s bag${items}`
+function packBag(owner = "Anon", ...items) {
+  if (items == "") {
+    return `🎒${owner}'s bag is empty`;
+  } else {
+    return `🎒${owner}'s bag Contains:${items}`;
+  }
+  //return`🎒${owner}'s bag${items}`
+}
 
-// }
-
-// console.log(packBag("Natasha", "💄", "🔫"));
-// console.log(packBag());
+console.log(packBag("Natasha", "💄", "🔫"));
+console.log(packBag());
 
 //Task 06
 
@@ -195,6 +193,7 @@ function whereAreYou(personObj) {
     user,
     location: { city, planet },
   } = personObj;
+
   if (personObj != {}) {
     return `Someone is currently in unknown, earth🌍`;
   } else {
