@@ -21,6 +21,7 @@
 
 1. Block scope
 2. function scope
+3. lexical scope - day9 notes will be added
 
 - {} - creates blockscope
 - fun(){} creates a functionscope.
@@ -29,6 +30,7 @@
 - you cant contain 'VAR' inside the block
 - let and const is an Block scope
 - var is an function scope
+- function scope doesn,t escape var
 
 # Types if Functions
 
@@ -41,7 +43,7 @@
 - 2.  function expression
 - 3. Arrow function
 - 4. IIFF
-- 5. Anonymous
+- 5. Anonymous - function doesn't have name is called 'anonoymous function'
 
 ## normal function vs arrow function difference
 
@@ -58,7 +60,7 @@
 - for() contain three parts
 - 1. initialization
 - 2.condition
-- increment or decrement part
+- increment or decrement part (updation)
 
 > syntax
 
@@ -66,8 +68,12 @@ for(1.initialization ; 2. condition; updation){
 //repeating statements
 }
 
+> only one time check initialize section
+
 ## Types of loops
 
-1. for ..loop
+1. for...loop
 2. while...loop
 3. do...while
+
+> same cycle only the way of writing is difference.

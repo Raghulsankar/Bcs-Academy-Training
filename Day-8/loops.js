@@ -89,11 +89,18 @@ for (let love = 1; love <= 5; love++) {
 
 // Task 1.3 - for loop or while loop
 
-for (let fish = 1; fish <= 3; fish++) {
-  console.log(" 🐳".repeat(fish));
-}
+// for (let fish = 1; fish <= 3; fish++) {
+//   console.log(" 🐳".repeat(fish));
+// }
 
+// method 2
 // printPattern("🐳", 3);
+function printPattern(emoj, noOfRows) {
+  for (let emojCount = 1; emojCount > noOfRows; emojCount++) {
+    console.log(emojCount.repeat(emojCount));
+  }
+}
+printPattern("🐳", 3);
 
 // Output
 // 🐳
@@ -103,6 +110,16 @@ for (let fish = 1; fish <= 3; fish++) {
 //task 1.4
 // complete with passsing parameter and argments
 // printPattern();
+
+// Default value
+function printPattern(emoji = "🎊", noOfRows = 5) {
+  for (let emojiCount = 1; emojiCount <= noOfRows; emojiCount++) {
+    console.log(emoji.repeat(emojiCount));
+  }
+}
+
+printPattern();
+printPattern("🐳", 3);
 
 // Output
 // ❤️
