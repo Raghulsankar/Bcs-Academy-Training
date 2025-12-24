@@ -2,7 +2,7 @@
 
 1. for...loop
 2. for...of (less complex also less controls)
-3. for...in (most complex also more controls)
+3. for...in (most complex also more controls) // incase you should collect index value means use this loop
 
 > for...of only used for dont need index value means use for..of method.
 
@@ -10,6 +10,8 @@
 
 > Function means "First class citizion"
 > HOF - Higher Order Function
+
+- HOF means one function can be used another function arguments is called "HOF"
 
 # Rules of functions:
 
@@ -20,7 +22,7 @@
 2. function returning another function
 3. function assigned to a avariable.
 
-> if function treated as value then they are vfirst class variable.
+> if function treated as value then they are first class variable.
 
 ### why it is called First class variable?
 
