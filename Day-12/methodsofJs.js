@@ -81,7 +81,8 @@ const scores = [
 ];
 
 console.log(
-  scores.reduce((mark1, mark2) => (mark1.marks > mark2.marks ? mark1 : mark2))
-    .name
+  scores.reduce((student1, student2) =>
+    student1.marks > student2.marks ? student1 : student2
+  ).name
 );
 // console.log(scores.reduce((a, b) => (b.marks > a.marks ? b : a)).name);

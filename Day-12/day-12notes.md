@@ -33,3 +33,7 @@ n=> a-b
 - in this one method in javascript array of anything to any datatype..
 
 (reduce)[https://ragavkumarv.com/blog/mrf/#reduce]
+
+# auto boxing in torch concept
+
+refer that auto boxing use mdn or any ai search
