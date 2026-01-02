@@ -39,11 +39,29 @@
 > rem is used into the root for gloablly declare variable of font size , padding , margin , width , height , borders.
 
 
-> csss variable can use multiple variations.
+> css variable can use multiple variations.
 
 # what is the difference between rem and em?
 
->em wiil not check the root  
+> em wiil not check the root  
 > em checks the parent value.
+> em default value is 16px.
+
+# linear gradient
+
+- linear gradient(to right, red , orange)
+ color start with red thrn right side will orange.
+
+
+[color gradient website](https://mycolor.space/?hex=%23845EC2&sub=1)
+
+# background 
+
+background: url(image url);
+
+background-blend-mode : url(url, black)
+
+background-blend-mode : url(url, gradient)
+
 
 
