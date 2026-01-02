@@ -39,4 +39,11 @@
 > rem is used into the root for gloablly declare variable of font size , padding , margin , width , height , borders.
 
 
+> csss variable can use multiple variations.
+
+# what is the difference between rem and em?
+
+>em wiil not check the root  
+> em checks the parent value.
+
 
