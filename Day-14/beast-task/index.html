@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* class selector */
+      .movie-poster {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 24px;
+      }
+
+      .movie-container {
+        /* background: pink; */
+        width: 372px;
+        color: oklch(94.271% 0.02861 20.119);
+        text-align: center;
+        font-family: Inter, sans-serif;
+      }
+
+      .movie-title {
+        color: oklch(100% 0.00011 271.152);
+        font-size: 36px;
+        margin: 0px;
+        margin-top: 4px;
+      }
+
+      .movie-spec {
+        color: oklch(61.427% 0.04125 20.271);
+      }
+
+      .dot {
+        color: oklch(94.271% 0.02861 20.119);
+      }
+
+      .movie-summary {
+        line-height: 1.5;
+        font-family: poppins, sans-serif;
+      }
+
+      body {
+        background: oklch(0.16 0.05 28.72);
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="movie-container">
+      <img
+        class="movie-poster"
+        src="./images/beast.png"
+        alt=""
+      />
+      <h2 class="movie-title">Beast</h2>
+      <p class="movie-spec">
+        2022 <span class="dot">‧</span> Action/Dark comedy
+        <span class="dot">‧</span> 2h 38m
+      </p>
+      <p class="movie-summary">
+        Beast is an upcoming Indian Tamil-language action thriller film written
+        and directed by Nelson and produced by Sun Pictures. The film stars
+        Vijay and Pooja Hegde, while Selvaraghavan, Yogi Babu and Redin Kingsley
+        play supporting roles.
+      </p>
+    </div>
+
+    <!-- <img src="./image.png" alt="" /> -->
+  </body>
+</html>

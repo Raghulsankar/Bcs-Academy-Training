@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task tiles</title>
+    <style>
+    
+    :root{
+        font-size: 10px;
+
+        --primary-color: #12a8ff;
+        
+        --secondary-color: #9fdcff;
+
+        --font-fam: sans-serif;
+       
+        --border-radius: 1rem;
+
+        --p-1: 1rem ;
+
+        --binary-font-size: 16px;
+
+    }
+      div {
+        background-color: var(--secondary-color);
+        border-left: 10px solid var(--primary-color);
+        padding: var(--p-1) calc(var(--p-1)* 2);
+        font-family: var(--font-fam);
+        border-radius: var(--border-radius);
+        width: 53rem;
+        font-size: var(--binary-font-size);
+      }
+      /* import part because do refer to center to the page */
+      body {
+        min-height: 100vh;
+        display: grid;
+        place-content: center;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>Intended Audience</h3>
+      <p>
+        This tutorial assumes that you already have a static React site
+        (Gatby/Next) being deployed on Versal or Netlify
+      </p>
+      <p>
+        it's written with the intermediate React Developer in mind; if you're
+        newer to the modern js ecosystem, it might be a bit hard to follow.
+      </p>
+    </div>
+  </body>
+</html>
