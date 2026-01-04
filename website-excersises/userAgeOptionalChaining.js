@@ -12,8 +12,8 @@ const userWithoutProfile = { user: {} };
 
 // Write a function that safely returns the user's age or a default message
 const getUserAge = (data) => {
-  // Your code 
-  return data?.user?.profile?.age ?? "Age not provided"; 
+  // Your code
+  return data?.user?.profile?.age ?? "Age not provided";
 };
 
 console.log(getUserAge(userData));
