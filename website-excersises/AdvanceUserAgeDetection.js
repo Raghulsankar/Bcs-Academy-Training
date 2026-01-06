@@ -32,3 +32,4 @@ const getUserAge = (user) => {
 console.log(getUserAge(userWithFullProfile));
 console.log(getUserAge(userWithPartialProfile));
 console.log(getUserAge({ id: 3, name: "Charlie" }));
+
