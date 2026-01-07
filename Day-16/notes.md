@@ -118,5 +118,6 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 grid-template-columns : repeat(12, 1fr);
 
+> in Grid Gap method is use row-gap , column-gap
 
-
+grid also have justify-content , align-items also works.
