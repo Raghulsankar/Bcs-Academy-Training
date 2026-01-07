@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shadows and clippath</title>
+    <style>
+      body {
+        background: yellow;
+      }
+      h1 {
+        background-color: aqua;
+        color: black;
+        text-shadow: 1px 1px greenyellow;
+        text-align: center;
+      }
+      img {
+        clip-path: polygon(
+          50% 0%,
+          90% 20%,
+          100% 60%,
+          75% 100%,
+          25% 100%,
+          0% 60%,
+          10% 20%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Raghul</h1>
+    <img src="../Day-14/images/beast.png" />
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .main-container {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        background: yellow;
+      }
+      .company-name {
+        font-family: "Cedarville Cursive";
+        font-weight: 900;
+        font-size: 2rem;
+      }
+      .btn {
+        border-radius: 3rem;
+        background-color: blue;
+        padding: 1rem 0.5rem;
+        font-family: "inter";
+        color: #ffffff;
+        width: 10rem;
+        font-size: 1rem;
+        font-weight: 700;
+        border: none;
+      }
+      .list-items {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+        text-decoration: none;
+        font-family: "inter";
+      }
+      li,
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-container">
+      <div class="company-name">
+        <p>Raghul Sankar</p>
+      </div>
+
+      <div class="main-list">
+        <ol class="list-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About us</a></li>
+        </ol>
+      </div>
+
+      <div class="main-button">
+        <button class="btn">Get started</button>
+      </div>
+    </header>
+  </body>
+</html>
