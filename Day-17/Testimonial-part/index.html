@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>TestiMonial Part</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: #fffaf5;
+      }
+
+      :root {
+        --primary-clr: hsl(210, 4%, 67%);
+        --primary-ff-clr: hsl(212, 27%, 19%);
+        --secondary-ff-clr: hsl(213, 9%, 39%);
+        --primary-ff: "Barlow", sans-serif;
+        --secondary--ff: "Fraunces", serif;
+      }
+
+      /* Section */
+      .main-section-container {
+        text-align: center;
+        padding: 6rem 10rem;
+      }
+
+      /* Title */
+      h1 {
+        color: var(--primary-clr);
+        font-family: var(--secondary--ff);
+        letter-spacing: 4px;
+        margin-bottom: 5rem;
+      }
+
+      /* Cards layout */
+      .testimonial-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+      }
+
+      /* Each testimonial */
+      .testimonial-container > div {
+        max-width: 300px;
+      }
+
+      /* Image */
+      .testimonial-container img {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 2rem;
+      }
+
+      /* Text */
+      .testimonial-container p {
+        font-family: var(--primary-ff);
+        color: var(--secondary-ff-clr);
+        font-weight: 600;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+      }
+
+      .testimonial-container h4 {
+        font-family: var(--secondary--ff);
+        color: var(--primary-ff-clr);
+        font-weight: 900;
+        font-size: 18px;
+        margin-bottom: 0.5rem;
+      }
+
+      .testimonial-container h6 {
+        font-family: var(--primary-ff);
+        color: var(--primary-clr);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="main-section-container">
+      <h1>Client Testimonial</h1>
+      <div class="testimonial-container">
+        <div class="emiley-container">
+          <img src="./images/image-emily.jpg" />
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h4>Emily R.</h4>
+          <h6>Markegting Director</h6>
+        </div>
+        <div class="thomas-container">
+          <img src="./images/image-thomas.jpg" />
+          <p>
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h4>Thomas S</h4>
+          <h6>Chief Operating Officer</h6>
+        </div>
+        <div class="jennie-container">
+          <img src="./images/image-jennie.jpg" />
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h4>Jennie F.</h4>
+          <h6>Business Owner</h6>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
