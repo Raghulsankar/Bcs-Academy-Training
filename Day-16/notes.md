@@ -65,7 +65,7 @@ header{ >h2{
 
 > specificity selector(1,1,1,0,0)
 
-> - ! important > inline style > Id selector> class selector > element selector
+> - ! important > inline style > Id selector> class selector > element selector 
 
 # what is specificity?
 
@@ -73,7 +73,7 @@ header{ >h2{
 
 # specificity order
 
-> - ! important > inline style > Id selector> class selector > element selector
+> - ! important > inline style > Id selector> class selector > element selector > css inheritance
 
 # clip path
 

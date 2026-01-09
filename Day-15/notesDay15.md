@@ -81,3 +81,62 @@ Add five hobbies with icon with different colors
 # block vs inline vs inline-block
 
 # flex
+
+## 3 type is css
+
+- inline
+- internal(time consuming)
+- external
+
+##### ReUse,understanding,maintaing[then using lot of html file link in one css file],clear html
+
+### sementic element(accessbility,screen reader,seo better(content))
+
+- headr(navigation)
+- section
+- footer
+
+### SEO search enginne optimization
+
+- Rank website
+- content
+- views
+- time spend
+- Bouce rate(time)
+
+### Purpose of alt->
+
+- Fallback/backup
+- Works during slow connection
+- SEO
+- Accessibility - (visually impacted peopels)
+
+### OVER FLOW
+
+- auto
+- hitten
+- scroll
+- visible
+
+### ICON-
+
+- svg-
+
+## cominator intreviw ques
+
+- > (importand) ---> child combinator
+- ( )decendad cominator
+- +(adjacent),~(gender)sibiling combinator
+-
+
+## interview inline-block
+
+inline - height and width dont consider
+
+# flex
+
+- width is the suggestion for flex
+- only use the main container
+
+main access (x)
+cross access (y)

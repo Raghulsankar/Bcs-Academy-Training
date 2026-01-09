@@ -2,7 +2,7 @@
 
 - display: none; => no more display
 
-- visibility : hidden; => if the content is inside the webpage but not visible
+- visibility : hidden; => if the content is inside the webpage like occupying space but not visible 
 
 # Bento Grid
 
@@ -56,8 +56,5 @@ grid-auto-column : 150px;
 
 
 
-# responsive screen 
-
- # media querys
    
  
