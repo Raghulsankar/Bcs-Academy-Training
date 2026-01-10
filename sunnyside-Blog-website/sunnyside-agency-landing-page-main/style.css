@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* :root {
+  --primary-red-clr: hsl(7, 99%, 70%);
+  --primary-yellow-clr: hsl(51, 100%, 49%);
+  --primary-graphic-text-clr: hsl(167, 40%, 24%);
+  --primary-photo-text-clr: hsl(198, 62%, 26%);
+  --primary-footer-clr: hsl(167, 34%, 41%);
+
+  --body-fz: 18px;
+
+  --primary-ff: "Inter" serif;
+  --secondary-ff: "Fraunces" sans-serif;
+
+  --primary-fw: 600;
+  --secondary-fw: 700, 900;
+
+  --netural-Grey-950: hsl(212, 27%, 19%);
+
+  --netural-Grey-600: hsl(213, 9%, 39%);
+  --netural-Grey-550: hsl(232, 10%, 55%);
+  --netural-Grey-400: hsl(210, 4%, 67%);
+  --netural-White: hsl(0, 100%, 100%);
+} */
+
+.nav-bar {
+  font-family: "inter";
+  font-size: 1.5rem;
+  display: flex;
+  /* gap: 2rem; */
+  justify-content: space-between;
+  background: #3fc0ff;
+  color: hsl(0, 100%, 100%);
+  padding-top: 2rem;
+}
+.nav-bar > button {
+  font-family: "Fraunces";
+}
+.nav-bar {
+  list-style: none;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: hsl(0, 100%, 100%);
+}
+
+.list-items {
+  display: flex;
+  gap: 4rem;
+  padding-right: 5rem;
+  align-items: center;
+}
+
+.nav-bar h3 {
+  padding-left: 4rem;
+}
+
+.sec-heading {
+  /* margin: 3rem; */
+  background: url(./images/desktop/image-header.jpg);
+  background-size: cover;
+  height: 60rem;
+  text-align: center;
+  place-content: center;
+  padding-bottom: 30rem;
+  font-family: "Fraunces";
+  color: hsl(0, 100%, 100%);
+  font-size: 3rem;
+  letter-spacing: 20px;
+}
+
+button {
+  border-radius: 1.9rem;
+  width: 9rem;
+  height: 4rem;
+  font-family: "Fraunces";
+  border: none;
+  background: hsl(0, 100%, 100%);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* template-1 container */
+.template-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text-container-1 {
+  align-items: center;
+  padding: 15rem;
+
+  > h3 {
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+    /* text-align: center; */
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  p {
+    color: hsl(232, 10%, 55%);
+    font-family: "inter";
+    /* text-align: center; */
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  h5 {
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+    /* text-align: start; */
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-top: 3rem;
+  }
+}
+
+.image-container-1 img {
+  height: 60rem;
+  width: 63.5rem;
+}
+
+/* template-2 container */
+
+.template-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text-container-2 {
+  align-items: center;
+  padding: 15rem;
+  gap: 2rem;
+
+  > h3 {
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+    /* text-align: center; */
+    font-size: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  p {
+    color: hsl(232, 10%, 55%);
+    font-family: "inter";
+    /* text-align: center; */
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  h5 {
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+    /* text-align: start; */
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-top: 3rem;
+  }
+}
+
+.image-container-2 img {
+  height: 60rem;
+  width: 63.5rem;
+}
+
+/* template-3 container */
+
+.template-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.apple-container {
+  background: url(./images/desktop/image-graphic-design.jpg);
+  height: 60rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+
+  > h3 {
+    font-family: "Fraunces";
+    font-size: 3rem;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+    /* padding: 10rem; */
+    margin-top: 35rem;
+  }
+
+  p {
+    font-family: "inter";
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-right: 14rem;
+    padding-left: 14rem;
+    /* padding-bottom: 0; */
+    font-weight: 600;
+    color: hsl(198, 62%, 26%);
+    line-height: 2rem;
+  }
+}
+
+.orange-container {
+  background: url(./images/desktop/image-photography.jpg);
+  height: 60rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  > h3 {
+    font-family: "Fraunces";
+    font-size: 3rem;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    /* padding: 10rem; */
+    margin-top: 35rem;
+  }
+
+  p {
+    font-family: "inter";
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-right: 14rem;
+    padding-left: 14rem;
+    /* padding-bottom: 0; */
+    font-weight: 600;
+    color: hsl(198, 62%, 26%);
+    line-height: 2rem;
+  }
+}
