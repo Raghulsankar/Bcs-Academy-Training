@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>window in Js</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background: pink;
+      }
+    </style>
+    <script>
+      //   const result = window.confirm("Are you want to exit?");
+      //   console.log(resulr);
+      //   if (result) {
+      //     console.log("allow to close");
+      //   } else {
+      //     console.log("dont allow close");
+      //   }
+
+      //task 1
+      const nkInterval = setInterval(() => {
+        console.log("hi, NK🍌");
+      }, 3000);
+
+      setTimeout(() => {
+        //stopper
+        clearInterval(nkInterval);
+        console.log("Stopped after 9 seconds");
+      }, 9000);
+
+      //task 2
+
+      //   const colors = ["Crimson", "orange", "teal", "pink"];
+      // task = every 2s body color must change and then cycle
+      // document.body.setAttribute("style", "background: crimson");
+
+      //   let index = 0;
+
+      //   setInterval(() => {
+      //     document.body.style.background = colors[index];
+
+      //     index++;
+      //     if (index === colors.length) {
+      //       index = 0; // cycle back to first color
+      //     }
+      //   }, 2000);
+
+      const colors = ["Crimson", "orange", "teal", "pink", "blue"];
+      let i = 0;
+      setInterval(() => {
+        if (i == colors.length) {
+          i = 0;
+        }
+        document.body.style.background = colors[i];
+        i++;
+      }, 2000);
+
+
+      
+    </script>
+  </body>
+</html>
