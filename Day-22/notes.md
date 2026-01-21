@@ -42,7 +42,6 @@ promise.resolve(4)
 
 > json is a formatter to convert string so easy language to support
 
-
 # Advantage of JSON
 
 - differnt frontend and different backend indepently
@@ -64,12 +63,10 @@ promise.resolve(4)
 - fetch returns the promises as a datatype object
 
 - using fetch url its is called as REST ENDPOINT or Rest API
-  
 
 # response
 
 - response is the response object it contains status,body,url,etc..
-
 
 # How to handle multiple promises at a same time?
 
