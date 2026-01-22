@@ -72,3 +72,23 @@ promise.resolve(4)
 
 # promise.all()
 
+# promise.race()
+
+- whoever wins other promises removed using promise.race()
+
+# promise.any()
+
+- any one atleast full fill . when all get rejected any rejected.
+
+- uncaught all promises are rejected at promise were rejected.
+
+# promise.allsetteled()
+
+- promise.allsetteled will be an a array of object.
+
+- we never get error.
+
+# refer mdn
+
+> formatting number like 10,00,000
+

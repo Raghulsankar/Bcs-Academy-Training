@@ -18,4 +18,18 @@
 - after the below things work
 - finally awit works
 
+# handling Errors
 
+> In javascript handling errors use TRY and Catch methods
+
+# we will create an API
+
+> DUMMY Api == MockAPI
+
+[MockAPI](https://mockapi.io/)
+
+- the above website use for create mock Apis
+
+> postman for post,get,put,delete,
+
+- postman tool use to access the api like create , update ,delete read the api informations.
