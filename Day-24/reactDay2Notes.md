@@ -58,5 +58,18 @@ use code split initial load time is decrease
 
 # smart and presentational component
 
-> smart - logic part
+> smart - logic part 'data and logic'
 > presentational - UI PART
+
+> when the spa application what will in the first ? => noscript tag and root element
+
+# bootstraping
+
+- index.html file first
+- after that other files.
+
+> why seo at bad in spa? => because the page is blank the google bot ranking the bad rating
+
+> using Next.js because of spa seo good.
+
+

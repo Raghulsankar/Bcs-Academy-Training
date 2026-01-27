@@ -36,9 +36,11 @@
 
 # props
 
-> args parameters is called 'props'
+> args and parameters is called 'props'
 > props means property
 > first argument is props
 
 > props datatype is object so they have key and value
 
+> strict-mode run all componenet twice checing for errors only in development
+> noscript tag used for when the browser disable the the javascript the noscript tag will be shown like a note to enable.
