@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+
+      input {
+        /* text-transform: uppercase; */
+      }
+
+      /* pseudo class */
+      input:invalid {
+        border: 2px solid crimson;
+      }
+
+      .form-container {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form-container">
+      <!-- label: To know what to type -->
+      <label for="user-name">Name*:</label>
+      <!-- placeholder: example, inviting  -->
+      <!-- Validation: Does not allow to submit -->
+      <input
+        id="user-name"
+        type="text"
+        placeholder="Ram"
+        minlength="8"
+        maxlength="12"
+        required
+      />
+
+      <label for="user-password" disabled>Password:</label>
+      <input
+        id="user-password"
+        type="password"
+        placeholder="******"
+        value="abc123"
+        disabled
+      />
+      <label>
+        Age:
+        <input min="18" max="60" type="number" placeholder="Age" />
+      </label>
+      <label>
+        Date of Birth:
+        <input type="date" />
+      </label>
+
+      <label>
+        Email:
+        <input type="email" />
+      </label>
+
+      <!-- <button>Cancel</button> -->
+      <button type="submit">Save</button>
+      <h3>Gender</h3>
+      <label> <input type="radio" name="gender" /> Male </label>
+      <label> <input type="radio" name="gender" checked /> Female </label>
+      <label> <input type="radio" name="gender" /> Others </label>
+
+      <h3>Hobbies</h3>
+
+      <label> <input type="checkbox" name="hobbies" checked /> Cricket </label>
+      <label> <input type="checkbox" name="hobbies" /> Football </label>
+      <label> <input type="checkbox" name="hobbies" disabled /> Chess </label>
+      <label> <input type="checkbox" name="hobbies" /> Horse Riding </label>
+
+      <h3>City</h3>
+      <select>
+        <option value="">-- Please Select City --</option>
+        <optgroup label="Tamilnadu">
+          <option value="chn">Chennai</option>
+          <option value="cbe">Coimbatore</option>
+          <option value="krr">Karur</option>
+        </optgroup>
+
+        <optgroup label="Karnataka">
+          <option value="blr">Bangolre</option>
+        </optgroup>
+
+        <optgroup label="Maharashtra">
+          <option value="bom">Mumbai</option>
+          <option value="pun">Pune</option>
+        </optgroup>
+      </select>
+
+      <div>
+        <h3>Comments</h3>
+        <textarea
+          rows="10"
+          cols="30"
+          placeholder="What's on your mind?"
+        ></textarea>
+      </div>
+    </form>
+  </body>
+</html>
