@@ -27,7 +27,7 @@
 
 # sprint retro sprective
 
-# Addof - suddenly add a ticet in ypur teamn
+# Addof - suddenly add a ticet in your team
 
 # spilledover = previous sprint tas continue new sprint
 
