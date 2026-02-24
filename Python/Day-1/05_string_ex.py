@@ -31,3 +31,8 @@ print(clear_message[3:16].upper())
 
 # Output
 # SECRET_CODE✌️
+
+
+message = "    🚨🔍📱🔑secret_code✌️".strip()
+idx = message.find("🔑")
+print(message[idx + 1 :].upper())
