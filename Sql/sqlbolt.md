@@ -189,3 +189,44 @@ on b.building_name = e.building
 ![exersise 7 completes](image-6.png)
 
 
+# Exercise 8 — Tasks
+- Find the name and role of all employees who have not been assigned to a building 
+```sql
+SELECT e.name,e.role from employees as e 
+where e.building is null
+```
+- Find the names of the buildings that hold no employees
+```sql
+SELECT b.building_name
+FROM buildings as b
+LEFT JOIN employees as e
+ON b.building_name = e.building
+WHERE e.building IS NULL;
+```
+![exersise 8 completed](image-7.png)
+
+
+# Exercise 9 — Tasks
+- List all movies and their combined sales in millions of dollars 
+```sql
+select m.title, 
+(b.domestic_sales + b.international_sales )/1000000 as sales 
+from boxoffice as b
+left join movies as m
+on m.id = b.movie_id 
+
+
+```
+- List all movies and their ratings in percent
+```sql
+select m.title, b.rating * 10 as percentage from boxoffice as b
+left join movies as m
+on m.id = b.movie_id 
+
+```
+- List all movies that were released on even number years
+```sql
+select title,year from movies where year % 2= 0
+```
+![exersise 9 completed](image-8.png)
+
