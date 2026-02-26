@@ -145,3 +145,47 @@ select * from north_american_cities where country like 'united states' order by 
 ![basic test sql](image-4.png)
 
 
+# Exercise 6 — Tasks
+- Find the domestic and international sales for each movie
+```sql
+select * from movies inner join boxoffice on movies.id = boxoffice.movie_id
+```
+- Show the sales numbers for each movie that did better internationally rather than domestically
+```sql
+select * from movies
+inner join boxoffice 
+on movies.id = boxoffice.movie_id 
+where international_sales > domestic_sales 
+```
+- List all the movies by their ratings in descending order
+```sql
+select * from movies as m
+inner join boxoffice as b
+on m.id = b.movie_id 
+order by m.rating desc
+```
+![exersise 6 completed](image-5.png)
+
+
+# Exercise 7 — Tasks
+- Find the list of all buildings that have employees
+```sql
+select distinct building 
+from employees 
+```
+- Find the list of all buildings and their capacity
+```sql
+select * from buildings
+
+```
+- List all buildings and the distinct employee roles in each building (including empty buildings)
+```sql
+select distinct e.role,b.building_name 
+from buildings as b
+left join employees as e  
+on b.building_name = e.building
+ 
+```
+![exersise 7 completes](image-6.png)
+
+
