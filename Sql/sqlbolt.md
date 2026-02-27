@@ -230,3 +230,52 @@ select title,year from movies where year % 2= 0
 ```
 ![exersise 9 completed](image-8.png)
 
+
+# Exercise 10 — Tasks
+- Find the longest time that an employee has been at the studio ✓
+```sql
+select role,max(years_employed)  from employees
+```
+- For each role, find the average number of years employed by employees in that role
+```sql
+select role , avg(years_employed)  from employees group by role
+```
+- Find the total number of employee years worked in each building
+```sql
+select building,sum(years_employed) from employees group by building
+```
+
+![exersise 10 completed](image-9.png)
+
+# Exercise 11 — Tasks
+- Find the number of Artists in the studio (without a HAVING clause) 
+```sql
+select count(role), role from employees where role like "artist"
+```
+- Find the number of Employees of each role in the studio
+```sql
+select count(role), role from employees  group by role 
+```
+- Find the total number of years employed by all Engineers
+```sql
+select role,sum(years_employed) from employees where role like "Engineer"
+```
+![exercise 11 completed](image-10.png)
+
+
+# Exercise 12 — Tasks
+- Find the number of movies each director has directed 
+```sql
+SELECT director , count(director) from movies group by director
+```
+- Find the total domestic and international sales that can be attributed to each director
+```sql
+SELECT m.director , sum(b.domestic_sales + b.international_sales) as total_movies 
+from movies as m 
+left join boxoffice as b 
+on m.id = b.movie_id
+group by m .director 
+```
+
+![exersise 12 completed](image-11.png)
+
