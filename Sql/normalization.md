@@ -7,9 +7,9 @@
 - like inconsistent data
 
 # deletion anomoly
+# insert anomoly
 
-
-
+# clause
 
 > avoid anomoly we seperated the table and join the table that is called "Normalization"
 
@@ -27,7 +27,8 @@
 
 # primary key rule
   1. primary key should be unique
-  2. primary ey should not null value
+  2. primary key should not null value
+  3. each table one primary key will be available
 
 # second normal form: (2NF)
 
@@ -43,7 +44,6 @@
 
 
 # third normal form: (3NF)
-> every non key attribute in a table should depend upon primary key
 
 > two non key should not be depended
 
@@ -65,4 +65,20 @@ select * Aggregate function() from tablename
 > each keyword in sql question used => Group by
 
 > which ever cloumn repeatly use group by 
+
+
+# group by
+
+> - dont use where after Group by
+
+# where 
+ - where is filter the rows
+
+# having
+
+- After the filter adding another condition using Having
+
+only after group by using "Having" clause
+
+
 
